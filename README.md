@@ -1,8 +1,6 @@
 <h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F74646&background=1DFFE200&center=true&vCenter=true&random=false&width=435&height=100&lines=Indie+iOS+Developer;3%2B+years+of+experience;Always+learning+%26+Passionate" alt="Typing SVG" /></a></h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=amish-tufail&label=Profile%20views&color=0e75b6&style=flat" alt="amish-tufail" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=amish-tufail" alt="amish-tufail" /></a> </p>
+![amish-tufail github-stats](https://stats.dooboo.io/api/github-stats-advanced?login=amish-tufail)
 
 <p align="left"> <a href="https://twitter.com/bisckoot" target="blank"><img src="https://img.shields.io/twitter/follow/bisckoot?logo=twitter&style=for-the-badge" alt="bisckoot" /></a> </p>
 
