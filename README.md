@@ -1,7 +1,7 @@
 <h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F74646&background=1DFFE200&center=true&vCenter=true&random=false&width=435&height=100&lines=Indie+iOS+Developer;3%2B+years+of+experience;Always+learning+%26+Passionate" alt="Typing SVG" /></a></h1>
 
 <div align="center" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-    <img src="https://stats.dooboo.io/api/github-stats-advanced?login=amish-tufail" width="300" height="200" alt="Amish Tufail's GitHub Stats">
+    <img src="https://stats.dooboo.io/api/github-stats-advanced?login=amish-tufail" width="800" height="600" alt="Amish Tufail's GitHub Stats">
 </div>
 
 
