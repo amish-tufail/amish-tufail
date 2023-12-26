@@ -1,6 +1,5 @@
 <h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F74646&background=1DFFE200&center=true&vCenter=true&random=false&width=435&height=100&lines=Indie+iOS+Developer;3%2B+years+of+experience;Always+learning+%26+Passionate" alt="Typing SVG" /></a></h1>
-
-![amish-tufail github-stats](https://stats.dooboo.io/api/github-stats-advanced?login=amish-tufail)
+<a>![amish-tufail github-stats](https://stats.dooboo.io/api/github-stats-advanced?login=amish-tufail)</a>
 
 <p align="left"> <a href="https://twitter.com/bisckoot" target="blank"><img src="https://img.shields.io/twitter/follow/bisckoot?logo=twitter&style=for-the-badge" alt="bisckoot" /></a> </p>
 
