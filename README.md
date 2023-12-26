@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Amish Tufail</h1>
 <h3 align="center">A passionate iOS Developer from Pakistan.</h3>
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=First+line+of+text;Second+line+of+text)](https://git.io/typing-svg)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=amish-tufail&label=Profile%20views&color=0e75b6&style=flat" alt="amish-tufail" /> </p>
 
