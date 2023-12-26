@@ -1,11 +1,11 @@
 <h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=200&color=F74646&background=1DFFE200&center=true&vCenter=true&random=false&width=1000&height=200&lines=Indie+iOS+Developer;3%2B+years+of+experience;Always+learning+%26+Passionate" alt="Typing SVG" /></a></h1>
 
 
-- 🌱 I’m currently learning **AWS & SwiftUI**
+- 🌱 I’m currently learning **SwiftUI**
 
 - 👯 I’m looking to collaborate on **different iOS Projects**
 
-- 💬 Ask me about **iOS & AWS**
+- 💬 Ask me about **iOS**
 
 - 📫 How to reach me **amish.tufail2002@gmail.com**
 
