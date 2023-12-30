@@ -18,13 +18,6 @@
      <img src="https://stats.dooboo.io/api/github-trophies?login=amish-tufail" width="500" height="100" alt="Amish Tufail's GitHub Trophies">
 </div>
 
-<h3 align="left"><b>Connect with me:</b></h3>
-<p align="left">
-<a href="https://twitter.com/bisckoot" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="bisckoot" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/amish-tufail" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="amish-tufail" height="30" width="40" /></a>
-<a href="https://instagram.com/bisckoot" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="bisckoot" height="30" width="40" /></a>
-</p>
-
 <div align="center" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
     <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=amish-tufail&theme=iceberg" alt="GitHub Streak" /></a>
 </div>
