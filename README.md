@@ -13,7 +13,7 @@
 <div align="center" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
     <img src="https://stats.dooboo.io/api/github-stats-advanced?login=amish-tufail" width="500" height="300" alt="Amish Tufail's GitHub Stats">
 </div>
-     
+      
 <div align="center" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
      <img src="https://stats.dooboo.io/api/github-trophies?login=amish-tufail" width="500" height="100" alt="Amish Tufail's GitHub Trophies">
 </div>
