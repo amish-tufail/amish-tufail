@@ -17,7 +17,7 @@
 <div align="center" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
      <img src="https://stats.dooboo.io/api/github-trophies?login=amish-tufail" width="500" height="100" alt="Amish Tufail's GitHub Trophies">
 </div> 
- 
+  
 <div align="center" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
     <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=amish-tufail&theme=iceberg" alt="GitHub Streak" /></a>
 </div>
