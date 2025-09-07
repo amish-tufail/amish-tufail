@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=200&color=F74646&background=1DFFE200&center=true&vCenter=true&random=false&width=1000&height=200&lines=+iOS+Engineer;3%2B+years+of+experience;Always+learning+%26+Passionate" alt="Typing SVG" /></a></h1> 
+<h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=200&color=F74646&background=1DFFE200&center=true&vCenter=true&random=false&width=1000&height=200&lines=+iOS+Engineer;3%2B+years+of+experience;Always+learning+%26+Passionate" alt="Typing SVG" /></a></h1>  
       
 📱 𝚒𝙾𝚂 Engineer: 𝚆𝚒𝚝𝚑 𝚘𝚟𝚎𝚛 𝟹 𝚢𝚎𝚊𝚛𝚜 𝚘𝚏 𝚎𝚡𝚙𝚎𝚛𝚒𝚎𝚗𝚌𝚎, 𝙸 𝚑𝚊𝚟𝚎 𝚊 𝚍𝚎𝚎𝚙 𝚙𝚊𝚜𝚜𝚒𝚘𝚗 𝚏𝚘𝚛 𝚌𝚛𝚎𝚊𝚝𝚒𝚗𝚐 𝚎𝚗𝚐𝚊𝚐𝚒𝚗𝚐 𝚊𝚗𝚍 𝚞𝚜𝚎𝚛-𝚏𝚛𝚒𝚎𝚗𝚍𝚕𝚢 𝚒𝙾𝚂 𝚊𝚙𝚙𝚕𝚒𝚌𝚊𝚝𝚒𝚘𝚗𝚜. 𝙼𝚢 𝚜𝚒𝚐𝚗𝚊𝚝𝚞𝚛𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚒𝚜 𝚆𝚊𝚕𝚕𝚎𝚝𝚆𝚑𝚒𝚣𝚣, 𝚊𝚗 𝚒𝚗𝚝𝚞𝚒𝚝𝚒𝚟𝚎 𝚎𝚡𝚙𝚎𝚗𝚜𝚎 𝚝𝚛𝚊𝚌𝚔𝚎𝚛 𝚊𝚙𝚙 𝚍𝚎𝚜𝚒𝚐𝚗𝚎𝚍 𝚝𝚘 𝚜𝚒𝚖𝚙𝚕𝚒𝚏𝚢 𝚏𝚒𝚗𝚊𝚗𝚌𝚒𝚊𝚕 𝚖𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝. 
   
