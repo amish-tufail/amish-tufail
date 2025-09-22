@@ -9,7 +9,7 @@
 💡 𝙳𝚛𝚒𝚟𝚎𝚗 𝚋𝚢 𝙿𝚊𝚜𝚜𝚒𝚘𝚗: 𝙼𝚢 𝚓𝚘𝚞𝚛𝚗𝚎𝚢 𝚒𝚜 𝚊 𝚋𝚕𝚎𝚗𝚍 𝚘𝚏 𝚙𝚛𝚊𝚌𝚝𝚒𝚌𝚊𝚕 𝚒𝙾𝚂 𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚖𝚎𝚗𝚝 𝚜𝚔𝚒𝚕𝚕𝚜 𝚊𝚗𝚍 𝚊 𝚏𝚘𝚛𝚠𝚊𝚛𝚍 𝚝𝚑𝚒𝚗𝚔𝚒𝚗𝚐 𝚊𝚙𝚙𝚛𝚘𝚊𝚌𝚑 𝚝𝚘 𝚗𝚎𝚠 𝚝𝚎𝚌𝚑𝚗𝚘𝚕𝚘𝚐𝚒𝚎𝚜 𝚕𝚒𝚔𝚎 𝚜𝚙𝚊𝚝𝚒𝚊𝚕 𝚌𝚘𝚖𝚙𝚞𝚝𝚒𝚗𝚐. 𝙸 𝚊𝚖 𝚊𝚕𝚠𝚊𝚢𝚜 𝚎𝚊𝚐𝚎𝚛 𝚝𝚘 𝚎𝚡𝚙𝚕𝚘𝚛𝚎 𝚊𝚗𝚍 𝚒𝚗𝚗𝚘𝚟𝚊𝚝𝚎.
       
 📫 𝙷𝚘𝚠 𝚝𝚘 𝚛𝚎𝚊𝚌𝚑 𝚖𝚎 **amish.tufail2002@gmail.com**
-    
+     
 <div align="center" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
     <img src="https://stats.dooboo.io/api/github-stats-advanced?login=amish-tufail" width="500" height="300" alt="Amish Tufail's GitHub Stats">
 </div>
