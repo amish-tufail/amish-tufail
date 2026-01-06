@@ -19,6 +19,7 @@
 </div>  
   
 <div align="center" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-    <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=amish-tufail&theme=iceberg" alt="GitHub Streak" /></a>
+    <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=amish-tufail" alt="GitHub Streak" /></a>
 </div>
+
 
