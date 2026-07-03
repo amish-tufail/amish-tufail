@@ -1,0 +1,99 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09090B"/>
+      <stop offset="0.48" stop-color="#0D1B33"/>
+      <stop offset="1" stop-color="#09090B"/>
+    </linearGradient>
+
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientTransform="translate(1290 164) rotate(127) scale(390 440)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A84FF" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#0A84FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowPurple" cx="0" cy="0" r="1" gradientTransform="translate(360 420) rotate(-25) scale(470 300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5E5CE6" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#5E5CE6" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blur" x="-80" y="-80" width="1760" height="680" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="46"/>
+    </filter>
+
+    <filter id="shadow" x="-80" y="-80" width="1760" height="680" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+
+    <linearGradient id="line" x1="200" y1="0" x2="1400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="520" rx="34" fill="url(#bg)"/>
+
+  <ellipse cx="1290" cy="164" rx="315" ry="260" fill="url(#glowBlue)" filter="url(#blur)"/>
+  <ellipse cx="360" cy="420" rx="390" ry="220" fill="url(#glowPurple)" filter="url(#blur)"/>
+
+  <g opacity="0.52">
+    <path d="M0 115H1600" stroke="url(#line)"/>
+    <path d="M0 260H1600" stroke="url(#line)"/>
+    <path d="M0 405H1600" stroke="url(#line)"/>
+  </g>
+
+  <g opacity="0.22">
+    <path d="M220 0V520" stroke="#FFFFFF"/>
+    <path d="M520 0V520" stroke="#FFFFFF"/>
+    <path d="M820 0V520" stroke="#FFFFFF"/>
+    <path d="M1120 0V520" stroke="#FFFFFF"/>
+    <path d="M1420 0V520" stroke="#FFFFFF"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1055" y="95" width="305" height="305" rx="66" fill="#0D0D10" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <rect x="1080" y="120" width="255" height="255" rx="48" fill="#111117"/>
+
+    <path d="M1140 228C1140 190.445 1170.445 160 1208 160H1208C1245.555 160 1276 190.445 1276 228V275C1276 312.555 1245.555 343 1208 343H1208C1170.445 343 1140 312.555 1140 275V228Z" fill="#F5F5F7"/>
+
+    <circle cx="1208" cy="208" r="27" fill="#0A84FF"/>
+    <circle cx="1208" cy="208" r="15" fill="#5E5CE6"/>
+
+    <path d="M1252 253C1268 253 1281 266 1281 282C1281 298 1268 311 1252 311H1215V253H1252Z" fill="#F5F5F7"/>
+
+    <path d="M1164 253C1148 253 1135 266 1135 282C1135 298 1148 311 1164 311H1201V253H1164Z" fill="#F5F5F7"/>
+  </g>
+
+  <text x="126" y="146" fill="#8E8E93" font-family="SF Mono, Menlo, Monaco, Consolas, monospace" font-size="19" letter-spacing="4">
+    AMISH TUFAIL / 2026
+  </text>
+
+  <text x="120" y="250" fill="#F5F5F7" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-3">
+    iOS Engineer.
+  </text>
+
+  <text x="120" y="335" fill="#F5F5F7" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" letter-spacing="-3">
+    Product thinker.
+  </text>
+
+  <text x="120" y="405" fill="#A1A1AA" font-family="Arial, Helvetica, sans-serif" font-size="29" letter-spacing="-0.6">
+    Building AI-powered experiences that feel effortless.
+  </text>
+
+  <g>
+    <rect x="120" y="444" width="196" height="42" rx="21" fill="#0A84FF" fill-opacity="0.18" stroke="#0A84FF" stroke-opacity="0.7"/>
+    <text x="148" y="471" fill="#73B7FF" font-family="SF Mono, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">
+      SWIFTUI / AI
+    </text>
+
+    <rect x="332" y="444" width="236" height="42" rx="21" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.13"/>
+    <text x="361" y="471" fill="#E5E5EA" font-family="SF Mono, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="700">
+      SPATIAL COMPUTING
+    </text>
+  </g>
+
+  <circle cx="1466" cy="82" r="6" fill="#30D158"/>
+  <text x="1484" y="88" fill="#A1A1AA" font-family="SF Mono, Menlo, Monaco, Consolas, monospace" font-size="15">
+    OPEN TO BUILD
+  </text>
+</svg>
