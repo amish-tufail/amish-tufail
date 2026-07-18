@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Amish Tufail — GitHub Profile Concept v2</title>
+<style>
+:root{
+  --bg:#050506;--panel:#0b0b0e;--panel2:#101014;--line:#202027;--line2:#2b2b34;
+  --text:#f5f5f7;--muted:#8e8e98;--soft:#c8c8cf;--accent:#70a7ff;--glow:rgba(112,167,255,.16)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 50% -20%,#121726 0,#050506 35%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(to bottom,black,transparent 72%)}
+.cursor{position:fixed;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,var(--glow),transparent 66%);transform:translate(-50%,-50%);pointer-events:none;z-index:0;filter:blur(18px)}
+.progress{position:fixed;top:0;left:0;height:2px;background:linear-gradient(90deg,#fff,var(--accent));width:0;z-index:20;box-shadow:0 0 18px rgba(112,167,255,.7)}
+.wrap{width:min(1180px,calc(100% - 40px));margin:0 auto;position:relative;z-index:1}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.05);position:sticky;top:0;background:rgba(5,5,6,.7);backdrop-filter:blur(18px);z-index:10;padding:0 8px}
+.brand{display:flex;gap:10px;align-items:center;font-weight:700;letter-spacing:-.02em}.dot{width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 20px var(--accent)}
+.navmeta{font:600 11px ui-monospace,SFMono-Regular,Menlo,monospace;color:#7f7f89;letter-spacing:.12em}
+.hero{min-height:720px;display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:62px;padding:72px 8px 54px}
+.eyebrow{font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.18em;color:var(--accent);margin-bottom:22px}
+h1{font-size:clamp(56px,7vw,92px);line-height:.94;letter-spacing:-.075em;margin:0;max-width:700px}
+.lead{font-size:20px;line-height:1.7;color:#a1a1aa;max-width:620px;margin:28px 0 0}
+.hero-actions{display:flex;gap:12px;margin-top:34px;flex-wrap:wrap}.pill{border:1px solid var(--line2);border-radius:999px;padding:12px 16px;font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;color:#d7d7dc;background:#0b0b0e;box-shadow:inset 0 1px rgba(255,255,255,.04)}
+.stage{position:relative;height:520px;perspective:1100px}
+.device{position:absolute;width:260px;height:515px;border-radius:48px;right:48px;top:2px;background:linear-gradient(150deg,#1e1e24,#060607 44%);border:1px solid #31313a;box-shadow:0 35px 100px rgba(0,0,0,.65),0 0 70px rgba(112,167,255,.08);transform:rotateY(-11deg) rotateX(4deg) rotateZ(2deg);overflow:hidden;animation:float 5s ease-in-out infinite}
+.device:before{content:"";position:absolute;inset:8px;border-radius:40px;background:linear-gradient(180deg,#121319,#09090c);border:1px solid #191a20}.island{position:absolute;width:92px;height:27px;border-radius:18px;background:#000;left:50%;top:18px;transform:translateX(-50%);z-index:3}.screen{position:absolute;inset:58px 23px 25px;z-index:2}.screen .tiny{font:600 10px ui-monospace,monospace;color:#5e6370;letter-spacing:.08em}.screen h3{font-size:31px;letter-spacing:-.05em;margin:11px 0 18px}.metric{margin-top:11px;padding:15px;border:1px solid #20222a;border-radius:18px;background:#0d0e12}.metric b{display:block;font-size:26px;letter-spacing:-.04em}.metric span{color:#70737d;font-size:12px}.pulse{height:72px;margin-top:18px;position:relative}.pulse svg{width:100%;height:100%;overflow:visible}.pulse path{fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-dasharray:280;stroke-dashoffset:280;animation:draw 3.8s ease-in-out infinite}.terminal{position:absolute;left:-10px;bottom:62px;width:360px;border:1px solid #292932;border-radius:24px;background:rgba(10,10,13,.92);backdrop-filter:blur(18px);box-shadow:0 28px 70px rgba(0,0,0,.55);transform:rotateY(8deg) rotateZ(-3deg);overflow:hidden;animation:float2 6s ease-in-out infinite}.termbar{height:43px;border-bottom:1px solid #1f2026;display:flex;align-items:center;gap:7px;padding:0 15px}.termbar i{width:8px;height:8px;border-radius:50%;background:#36363e}.termbar span{margin-left:auto;font:600 10px ui-monospace,monospace;color:#63636d}.code{padding:22px 24px 25px;font:500 12px/1.85 ui-monospace,SFMono-Regular,Menlo,monospace;color:#d7d7de}.code .kw{color:#c7b3ff}.code .type{color:#79c0ff}.code .str{color:#a7d59e}.code .muted{color:#555963}.caret{display:inline-block;width:7px;height:14px;background:#fff;vertical-align:-2px;animation:blink 1s steps(1) infinite}
+.orbit{position:absolute;right:4px;top:76px;width:390px;height:390px;border:1px solid rgba(255,255,255,.06);border-radius:50%;animation:spin 18s linear infinite}.orbit:before,.orbit:after{content:"";position:absolute;border-radius:50%;background:#fff;box-shadow:0 0 20px rgba(255,255,255,.4)}.orbit:before{width:6px;height:6px;left:13px;top:95px}.orbit:after{width:4px;height:4px;right:46px;bottom:42px}
+.section{padding:110px 8px;border-top:1px solid rgba(255,255,255,.055)}
+.kicker{font:600 11px ui-monospace,monospace;color:#6d7480;letter-spacing:.18em;text-transform:uppercase}.section h2{font-size:clamp(38px,5vw,64px);letter-spacing:-.055em;line-height:1.03;margin:14px 0 18px;max-width:800px}.section-intro{font-size:18px;line-height:1.7;color:#93939d;max-width:720px}
+.system{margin-top:48px;border:1px solid var(--line);border-radius:30px;background:linear-gradient(180deg,#0b0b0e,#080809);overflow:hidden}.system-head{display:flex;justify-content:space-between;padding:18px 22px;border-bottom:1px solid #1b1b20;font:600 11px ui-monospace,monospace;color:#666a74}.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:0}.node{min-height:230px;padding:30px 26px;border-right:1px solid #1b1b20;position:relative;transition:.35s ease}.node:last-child{border-right:0}.node:hover{background:#0f1014;transform:translateY(-5px)}.num{font:600 11px ui-monospace,monospace;color:#555a65}.node h3{font-size:24px;letter-spacing:-.04em;margin:52px 0 12px}.node p{color:#777985;line-height:1.65;font-size:14px}.node .signal{position:absolute;top:31px;right:24px;width:9px;height:9px;border:1px solid #50545f;border-radius:50%}.node:hover .signal{background:var(--accent);border-color:var(--accent);box-shadow:0 0 22px var(--accent)}
+.split{display:grid;grid-template-columns:1.05fr .95fr;gap:18px;margin-top:46px}.card{border:1px solid var(--line);border-radius:28px;background:#0a0a0d;padding:30px;min-height:360px;position:relative;overflow:hidden}.card h3{font-size:23px;letter-spacing:-.04em;margin:0 0 10px}.card p{color:#7d7d87;line-height:1.7;font-size:14px;max-width:480px}.stack{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.tag{padding:10px 13px;border:1px solid #25262d;background:#0e0f12;border-radius:12px;font:600 11px ui-monospace,monospace;color:#c8c8ce;transition:.25s}.tag:hover{border-color:#53596a;transform:translateY(-2px);color:#fff}.layers{position:absolute;left:30px;right:30px;bottom:28px;height:120px}.layer{position:absolute;left:0;right:0;height:54px;border:1px solid #2b2c34;border-radius:16px;background:rgba(17,18,22,.9);display:flex;align-items:center;padding:0 18px;font:600 11px ui-monospace,monospace;color:#82858f}.layer:nth-child(1){bottom:0;transform:translateY(0)}.layer:nth-child(2){bottom:28px;left:18px;right:18px}.layer:nth-child(3){bottom:56px;left:36px;right:36px;color:#d7d7dc;border-color:#3a3e49;box-shadow:0 12px 35px rgba(0,0,0,.45)}
+.timeline{margin-top:46px;border:1px solid var(--line);border-radius:28px;padding:34px;background:#09090b}.timeline-track{height:2px;background:#1f2026;position:relative;margin:80px 38px 30px}.timeline-fill{height:100%;width:0;background:linear-gradient(90deg,#555b67,var(--accent));transition:width 1.2s ease}.milestones{display:grid;grid-template-columns:repeat(4,1fr);margin-top:-46px}.mile{text-align:center;position:relative}.mile i{display:inline-block;width:14px;height:14px;border-radius:50%;background:#0b0b0e;border:2px solid #42454f;box-shadow:0 0 0 8px #09090b;transition:.35s}.mile.active i{border-color:var(--accent);background:var(--accent);box-shadow:0 0 0 8px #09090b,0 0 24px rgba(112,167,255,.45)}.mile b{display:block;margin-top:28px;font-size:14px}.mile span{display:block;color:#666a73;font-size:12px;margin-top:7px}
+.footer{padding:90px 8px 120px;text-align:center;border-top:1px solid rgba(255,255,255,.055)}.footer h2{font-size:clamp(42px,6vw,76px);letter-spacing:-.06em;margin:0}.footer p{color:#7d7d86;font-size:16px}.contact{display:inline-flex;margin-top:22px;border:1px solid #2a2a31;border-radius:999px;padding:13px 18px;color:#eee;text-decoration:none;font:600 12px ui-monospace,monospace;transition:.25s}.contact:hover{transform:translateY(-3px);border-color:#535866;box-shadow:0 10px 35px rgba(0,0,0,.4)}
+@keyframes float{0%,100%{transform:rotateY(-11deg) rotateX(4deg) rotateZ(2deg) translateY(0)}50%{transform:rotateY(-9deg) rotateX(3deg) rotateZ(1deg) translateY(-12px)}}
+@keyframes float2{0%,100%{transform:rotateY(8deg) rotateZ(-3deg) translateY(0)}50%{transform:rotateY(6deg) rotateZ(-2deg) translateY(10px)}}
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:0}}@keyframes draw{0%{stroke-dashoffset:280;opacity:.25}45%,75%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:-280;opacity:.2}}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s ease}.reveal.show{opacity:1;transform:none}
+@media(max-width:900px){.hero{grid-template-columns:1fr;min-height:auto;padding-top:70px}.stage{height:560px}.device{right:7%}.terminal{left:2%}.flow{grid-template-columns:1fr 1fr}.node:nth-child(2){border-right:0}.node{border-bottom:1px solid #1b1b20}.split{grid-template-columns:1fr}.orbit{right:2%}}
+@media(max-width:620px){.wrap{width:min(100% - 24px,1180px)}nav{height:62px}.navmeta{display:none}.hero{padding:55px 4px 34px;gap:36px}h1{font-size:52px}.lead{font-size:17px}.stage{height:500px;transform:scale(.82);transform-origin:top center;margin-bottom:-80px}.flow{grid-template-columns:1fr}.node{border-right:0}.section{padding:80px 4px}.milestones{grid-template-columns:repeat(2,1fr);gap:35px 0}.timeline-track{display:none}.mile{padding-top:0}.mile i{display:none}.footer{padding-bottom:90px}}
+</style>
+</head>
+<body>
+<div class="cursor" id="cursor"></div><div class="progress" id="progress"></div>
+<div class="wrap">
+<nav><div class="brand"><span class="dot"></span> AMISH TUFAIL</div><div class="navmeta">IOS ENGINEER / 03+ YEARS / ALWAYS SHIPPING</div></nav>
+
+<section class="hero">
+  <div class="reveal show">
+    <div class="eyebrow">NATIVE iOS · PRODUCT ENGINEERING</div>
+    <h1>I build the part users can feel.</h1>
+    <p class="lead">iOS engineer focused on native product experiences, thoughtful interaction, clean systems, and the last 10% that makes software feel finished.</p>
+    <div class="hero-actions"><span class="pill">SWIFT</span><span class="pill">SWIFTUI</span><span class="pill">UIKIT</span><span class="pill">PRODUCT CRAFT</span></div>
+  </div>
+  <div class="stage reveal show">
+    <div class="orbit"></div>
+    <div class="device">
+      <div class="island"></div>
+      <div class="screen">
+        <div class="tiny">SHIP QUALITY</div><h3>Make it feel<br/>obvious.</h3>
+        <div class="metric"><b>60 fps</b><span>interaction target</span></div>
+        <div class="metric"><b>1 source</b><span>of truth for state</span></div>
+        <div class="pulse"><svg viewBox="0 0 250 70"><path d="M3 48 C 28 48, 34 16, 57 29 S 91 61, 114 33 S 151 17, 176 42 S 215 56, 247 20"/></svg></div>
+      </div>
+    </div>
+    <div class="terminal">
+      <div class="termbar"><i></i><i></i><i></i><span>ProductView.swift</span></div>
+      <div class="code"><span class="kw">struct</span> <span class="type">ProductView</span>: View {<br>&nbsp;&nbsp;<span class="kw">var</span> body: <span class="kw">some</span> View {<br>&nbsp;&nbsp;&nbsp;&nbsp;Experience()<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.fast()<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.clear()<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.intentional()<span class="caret"></span><br>&nbsp;&nbsp;}<br>}<br><br><span class="muted">// build → measure → refine → ship</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section reveal">
+  <div class="kicker">01 · How I work</div>
+  <h2>Engineering is a loop, not a handoff.</h2>
+  <p class="section-intro">I think about the whole path from product intent to shipped behaviour — not just the code in the middle.</p>
+  <div class="system">
+    <div class="system-head"><span>BUILD SYSTEM</span><span>STATUS · RUNNING</span></div>
+    <div class="flow">
+      <div class="node"><span class="num">01</span><span class="signal"></span><h3>Frame</h3><p>Understand the user problem, state model, constraints, and what “good” should actually feel like.</p></div>
+      <div class="node"><span class="num">02</span><span class="signal"></span><h3>Build</h3><p>Turn the idea into a reliable native implementation with deliberate architecture and data flow.</p></div>
+      <div class="node"><span class="num">03</span><span class="signal"></span><h3>Refine</h3><p>Push on motion, responsiveness, failure states, loading, accessibility, and the awkward edge cases.</p></div>
+      <div class="node"><span class="num">04</span><span class="signal"></span><h3>Ship</h3><p>Release, observe, learn, and improve the product based on what happens outside the simulator.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section reveal">
+  <div class="kicker">02 · Native stack</div>
+  <h2>Tools are the implementation detail. Product quality is the goal.</h2>
+  <div class="split">
+    <div class="card">
+      <h3>Core toolkit</h3><p>The stack I reach for to build, debug, ship, and iterate on native iOS products.</p>
+      <div class="stack"><span class="tag">SWIFT</span><span class="tag">SWIFTUI</span><span class="tag">UIKIT</span><span class="tag">XCODE</span><span class="tag">STOREKIT</span><span class="tag">CORE DATA</span><span class="tag">FIREBASE</span><span class="tag">REST APIs</span><span class="tag">GIT</span><span class="tag">FIGMA</span></div>
+    </div>
+    <div class="card">
+      <h3>What sits underneath</h3><p>A screen is only the visible layer. The quality comes from the systems behind it.</p>
+      <div class="layers"><div class="layer">DATA · SERVICES · PERSISTENCE</div><div class="layer">STATE · ARCHITECTURE · PERFORMANCE</div><div class="layer">INTERACTION · MOTION · UI</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section reveal">
+  <div class="kicker">03 · Experience</div>
+  <h2>3+ years of turning ideas into things people can actually use.</h2>
+  <p class="section-intro">The exact projects change. The loop stays the same: learn fast, build carefully, sweat the details, and keep raising the bar.</p>
+  <div class="timeline" id="timeline">
+    <div class="timeline-track"><div class="timeline-fill" id="timelineFill"></div></div>
+    <div class="milestones">
+      <div class="mile"><i></i><b>Learn</b><span>Foundations</span></div>
+      <div class="mile"><i></i><b>Build</b><span>Real products</span></div>
+      <div class="mile"><i></i><b>Own</b><span>Systems & quality</span></div>
+      <div class="mile"><i></i><b>Raise the bar</b><span>Still learning</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="footer reveal">
+  <div class="kicker">THE PROFILE ENDS. THE WORK DOESN'T.</div>
+  <h2>Always learning.<br/>Always building.</h2>
+  <p>iOS engineer · product thinker · detail obsessive</p>
+  <a class="contact" href="mailto:amish.tufail2002@gmail.com">amish.tufail2002@gmail.com ↗</a>
+</section>
+</div>
+<script>
+const cursor=document.getElementById('cursor');addEventListener('pointermove',e=>{cursor.style.left=e.clientX+'px';cursor.style.top=e.clientY+'px'});
+const progress=document.getElementById('progress');addEventListener('scroll',()=>{const d=document.documentElement;progress.style.width=((d.scrollTop/(d.scrollHeight-d.clientHeight))*100)+'%'});
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.14});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+const tl=document.getElementById('timeline'),fill=document.getElementById('timelineFill'),miles=[...document.querySelectorAll('.mile')];
+const tObs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(!e.isIntersecting)return;fill.style.width='100%';miles.forEach((m,i)=>setTimeout(()=>m.classList.add('active'),260*i));})},{threshold:.4});tObs.observe(tl);
+</script>
+</body>
+</html>

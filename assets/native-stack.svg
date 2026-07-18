@@ -1,0 +1,28 @@
+<svg width="1200" height="450" viewBox="0 0 1200 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B0C10"/><stop offset="1" stop-color="#07080A"/></linearGradient></defs>
+<rect width="1200" height="450" rx="30" fill="#050506"/>
+<rect x="0" y="0" width="588" height="450" rx="30" fill="url(#bg)" stroke="#20232B"/>
+<rect x="612" y="0" width="588" height="450" rx="30" fill="url(#bg)" stroke="#20232B"/>
+<text x="38" y="56" fill="#F4F4F6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="29" font-weight="730" letter-spacing="-1">Core toolkit</text>
+<text x="38" y="88" fill="#797E89" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="15">The tools I reach for to build, debug, ship, and iterate.</text>
+<g font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" fill="#D7D9DF">
+  <g><rect x="38" y="128" width="88" height="42" rx="12" fill="#0E0F13" stroke="#292C35"/><text x="82" y="154" text-anchor="middle">SWIFT</text></g>
+  <g><rect x="138" y="128" width="105" height="42" rx="12" fill="#0E0F13" stroke="#292C35"/><text x="190.5" y="154" text-anchor="middle">SWIFTUI</text></g>
+  <g><rect x="255" y="128" width="90" height="42" rx="12" fill="#0E0F13" stroke="#292C35"/><text x="300" y="154" text-anchor="middle">UIKIT</text></g>
+  <g><rect x="357" y="128" width="92" height="42" rx="12" fill="#0E0F13" stroke="#292C35"/><text x="403" y="154" text-anchor="middle">XCODE</text></g>
+  <g><rect x="38" y="182" width="105" height="42" rx="12" fill="#0E0F13" stroke="#292C35"/><text x="90.5" y="208" text-anchor="middle">STOREKIT</text></g>
+  <g><rect x="155" y="182" width="118" height="42" rx="12" fill="#0E0F13" stroke="#292C35"/><text x="214" y="208" text-anchor="middle">CORE DATA</text></g>
+  <g><rect x="285" y="182" width="112" height="42" rx="12" fill="#0E0F13" stroke="#292C35"/><text x="341" y="208" text-anchor="middle">FIREBASE</text></g>
+  <g><rect x="409" y="182" width="124" height="42" rx="12" fill="#0E0F13" stroke="#292C35"/><text x="471" y="208" text-anchor="middle">REST APIS</text></g>
+  <g><rect x="38" y="236" width="72" height="42" rx="12" fill="#0E0F13" stroke="#292C35"/><text x="74" y="262" text-anchor="middle">GIT</text></g>
+  <g><rect x="122" y="236" width="82" height="42" rx="12" fill="#0E0F13" stroke="#292C35"/><text x="163" y="262" text-anchor="middle">FIGMA</text></g>
+</g>
+<text x="650" y="56" fill="#F4F4F6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="29" font-weight="730" letter-spacing="-1">What sits underneath</text>
+<text x="650" y="88" fill="#797E89" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="15">A screen is only the visible layer. The quality lives below it.</text>
+<g font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700">
+  <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="4.8s" repeatCount="indefinite"/><rect x="684" y="298" width="440" height="70" rx="18" fill="#111319" stroke="#30343E"/><text x="708" y="339" fill="#7C828E">DATA · SERVICES · PERSISTENCE</text></g>
+  <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5.4s" begin=".3s" repeatCount="indefinite"/><rect x="706" y="246" width="396" height="70" rx="18" fill="#12141A" stroke="#353944"/><text x="730" y="287" fill="#9AA0AB">STATE · ARCHITECTURE · PERFORMANCE</text></g>
+  <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="6s" begin=".6s" repeatCount="indefinite"/><rect x="728" y="194" width="352" height="70" rx="18" fill="#14171E" stroke="#4A5260"/><text x="752" y="235" fill="#EDF0F5">INTERACTION · MOTION · UI</text><circle cx="1044" cy="229" r="5" fill="#70A7FF"><animate attributeName="opacity" values=".35;1;.35" dur="2.2s" repeatCount="indefinite"/></circle></g>
+</g>
+<text x="38" y="388" fill="#5A5F6B" font-family="SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.2">TOOLS ARE THE IMPLEMENTATION DETAIL. PRODUCT QUALITY IS THE GOAL.</text>
+</svg>
