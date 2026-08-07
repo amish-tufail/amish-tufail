@@ -1,45 +1,29 @@
 {
   "repos": 59,
-  "total_repos": 115,
-  "public_only": false,
+  "total_repos": 54,
+  "public_only": true,
   "years": "3+",
   "mix": [
     [
       "Swift",
-      97.8,
+      92.5,
       "a4"
     ],
     [
       "Python",
-      1.8,
+      7.5,
       "a1"
     ],
     [
       "Other",
-      0.4,
+      0.0,
       "a3"
     ]
   ],
   "top_repos": [
     [
-      "Gen AI",
-      946.9
-    ],
-    [
-      "Flon",
-      684.7
-    ],
-    [
-      "MailBrief",
-      185.9
-    ],
-    [
-      "Trace",
-      157.4
-    ],
-    [
-      "Zerack",
-      153.3
+      "SwiftSocialKit",
+      21.0
     ]
   ],
   "contrib_total": 1676,
@@ -455,8 +439,8 @@
       9,
       6,
       21,
-      3,
-      15,
+      4,
+      14,
       15
     ],
     [
