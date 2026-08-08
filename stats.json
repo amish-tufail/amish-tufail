@@ -1,32 +1,48 @@
 {
   "repos": 59,
-  "total_repos": 54,
-  "public_only": true,
+  "total_repos": 115,
+  "public_only": false,
   "years": "3+",
   "mix": [
     [
       "Swift",
-      88.4,
+      97.8,
       "a4"
     ],
     [
       "Python",
-      11.6,
+      1.8,
       "a1"
     ],
     [
       "Other",
-      0,
+      0.4,
       "a3"
     ]
   ],
   "top_repos": [
     [
-      "SwiftSocialKit",
-      21.0
+      "Gen AI",
+      946.9
+    ],
+    [
+      "Flon",
+      684.7
+    ],
+    [
+      "MailBrief",
+      185.9
+    ],
+    [
+      "Trace",
+      157.4
+    ],
+    [
+      "Zerack",
+      153.3
     ]
   ],
-  "contrib_total": 1677,
+  "contrib_total": 1676,
   "contrib_private": 1626,
   "contrib_weeks": [
     [
@@ -439,8 +455,8 @@
       9,
       6,
       21,
-      4,
-      14,
+      3,
+      15,
       15
     ],
     [
@@ -503,7 +519,7 @@
       1,
       3,
       2,
-      1
+      0
     ]
   ],
   "week_starts": [
@@ -563,9 +579,9 @@
   ],
   "first_day": "2025-08-03",
   "last_day": "2026-08-07",
-  "streak_current": 245,
-  "streak_longest": 245,
-  "active_days": 307,
+  "streak_current": 244,
+  "streak_longest": 244,
+  "active_days": 306,
   "total_days": 370,
   "best_day": "2026-01-17",
   "best_day_count": 32,

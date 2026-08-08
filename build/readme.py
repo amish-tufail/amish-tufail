@@ -5,32 +5,17 @@ import core
 
 ALT = {
     "hero": "Amish Tufail — iOS Engineer, Sydney Australia",
-    "terminal": "whoami — Swift, SwiftUI, SwiftData, Vapor, Sydney",
-    "marquee": "Tools and frameworks I work in",
-    "div-build": "01 / Method — how I actually build",
-    "method": "Frame, build, refine, review",
-    "div-principles": "02 / Principles — what I optimise for",
-    "principles": "Six engineering principles",
-    "div-stack": "03 / Architecture — what the inside looks like",
-    "architecture": "Presentation, domain, data, persistence layers",
-    "div-signal": "04 / Signal — the receipts",
-    "heatmap": "Contribution calendar, last 12 months",
-    "streak": "Streak and consistency stats",
-    "div-focus": "05 / Focus — where the hours go",
-    "focus": "How a month splits across the stack",
+    "terminal": "whoami — Swift, Python, Sydney",
+    "marquee": "Frameworks and tools I have built with",
+    "div-activity": "Activity — every commit, last 12 months",
+    "heatmap": "Contribution calendar and streak, last 12 months",
     "footer": "Let's build something native",
 }
 
-ORDER = ["hero", "terminal", "marquee",
-         "div-build", "method",
-         "div-principles", "principles",
-         "div-stack", "architecture",
-         "div-signal", "heatmap", "streak",
-         "div-focus", "focus",
-         "footer"]
+ORDER = ["hero", "terminal", "marquee", "div-activity", "heatmap", "footer"]
 
 LINKS = [("badge-email", "mailto:amish.tufail2002@gmail.com", "Email"),
-         ("badge-x", "https://x.com/bisckoot", "X"),
+         ("badge-instagram", "https://instagram.com/bisckoot", "Instagram"),
          ("badge-repos", "https://github.com/amish-tufail?tab=repositories", "Repositories")]
 
 
