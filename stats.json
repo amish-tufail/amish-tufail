@@ -26,8 +26,8 @@
       21.0
     ]
   ],
-  "contrib_total": 1712,
-  "contrib_private": 1665,
+  "contrib_total": 1709,
+  "contrib_private": 1664,
   "contrib_weeks": [
     [
       0,
@@ -498,7 +498,8 @@
       0
     ],
     [
-      1
+      1,
+      0
     ]
   ],
   "week_starts": [
@@ -557,11 +558,11 @@
     "2026-08-23"
   ],
   "first_day": "2025-08-24",
-  "last_day": "2026-08-23",
+  "last_day": "2026-08-24",
   "streak_current": 1,
   "streak_longest": 256,
   "active_days": 305,
-  "total_days": 365,
+  "total_days": 366,
   "best_day": "2026-01-17",
   "best_day_count": 32,
   "peak": 32
