@@ -501,6 +501,7 @@
       7,
       0,
       0,
+      0,
       0
     ]
   ],
@@ -560,11 +561,11 @@
     "2026-10-04"
   ],
   "first_day": "2025-10-05",
-  "last_day": "2026-10-07",
+  "last_day": "2026-10-08",
   "streak_current": 0,
   "streak_longest": 303,
   "active_days": 313,
-  "total_days": 368,
+  "total_days": 369,
   "best_day": "2026-01-17",
   "best_day_count": 32,
   "peak": 32
