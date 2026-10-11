@@ -26,18 +26,9 @@
       21.0
     ]
   ],
-  "contrib_total": 1888,
-  "contrib_private": 1858,
+  "contrib_total": 1913,
+  "contrib_private": 1883,
   "contrib_weeks": [
-    [
-      1,
-      1,
-      1,
-      1,
-      1,
-      0,
-      3
-    ],
     [
       1,
       1,
@@ -499,16 +490,18 @@
     ],
     [
       7,
-      0,
-      0,
-      0,
       1,
       1,
-      1
+      2,
+      1,
+      1,
+      6
+    ],
+    [
+      16
     ]
   ],
   "week_starts": [
-    "2025-10-05",
     "2025-10-12",
     "2025-10-19",
     "2025-10-26",
@@ -560,14 +553,15 @@
     "2026-09-13",
     "2026-09-20",
     "2026-09-27",
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-11"
   ],
-  "first_day": "2025-10-05",
-  "last_day": "2026-10-10",
-  "streak_current": 3,
-  "streak_longest": 303,
-  "active_days": 316,
-  "total_days": 371,
+  "first_day": "2025-10-12",
+  "last_day": "2026-10-11",
+  "streak_current": 310,
+  "streak_longest": 310,
+  "active_days": 314,
+  "total_days": 365,
   "best_day": "2026-01-17",
   "best_day_count": 32,
   "peak": 32
