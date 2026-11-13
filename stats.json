@@ -502,7 +502,8 @@
       4,
       3,
       8,
-      1
+      1,
+      0
     ]
   ],
   "week_starts": [
@@ -561,11 +562,11 @@
     "2026-11-08"
   ],
   "first_day": "2025-11-09",
-  "last_day": "2026-11-12",
+  "last_day": "2026-11-13",
   "streak_current": 342,
   "streak_longest": 342,
   "active_days": 342,
-  "total_days": 369,
+  "total_days": 370,
   "best_day": "2026-01-17",
   "best_day_count": 32,
   "peak": 32
